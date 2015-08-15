@@ -1,0 +1,33 @@
+{
+  "name": "react-rails-redux-sample",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suzan2go/react-rails-redux-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzan2go/react-rails-redux-sample/issues"
+  },
+  "homepage": "https://github.com/suzan2go/react-rails-redux-sample",
+  "devDependencies": {
+    "babelify": "^6.1.3",
+    "browserify": "^11.0.1",
+    "browserify-incremental": "^3.0.1"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-redux": "^0.8.2",
+    "redux": "^1.0.0",
+    "redux-thunk": "^0.1.0"
+  }
+}
