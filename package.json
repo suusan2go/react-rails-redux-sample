@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha spec/javascripts/setUp.js spec/**/*Spec.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,12 @@
     "babel-preset-stage-2": "^6.1.2",
     "babelify": "^7.2.0",
     "browserify": "^13.1.1",
-    "browserify-incremental": "^3.0.1"
+    "browserify-incremental": "^3.0.1",
+    "chai": "^3.5.0",
+    "enzyme": "^2.6.0",
+    "jsdom": "^9.8.3",
+    "mocha": "^3.2.0",
+    "react-addons-test-utils": "^15.4.1"
   },
   "dependencies": {
     "react": "^15.4.1",

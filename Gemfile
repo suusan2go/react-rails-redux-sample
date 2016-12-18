@@ -43,3 +43,11 @@ gem 'browserify-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :development, :test do
+  gem 'rspec-rails', '~> 3.5'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
