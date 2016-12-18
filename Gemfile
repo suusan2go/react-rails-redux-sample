@@ -46,3 +46,8 @@ gem 'browserify-rails'
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
