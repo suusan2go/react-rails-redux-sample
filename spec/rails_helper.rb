@@ -27,6 +27,13 @@ require 'capybara/rails'
 # Checks for pending migration and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
 # Capybara
+Capybara.register_driver :selenium do |app|
+  Capybara::Selenium::Driver.new(
+    app,
+    browser: :firefox,
+    desired_capabilities: Selenium::WebDriver::Remote::Capabilities.firefox(marionette: false)
+  )
+end
 Capybara.default_driver = :selenium
 # https://github.com/jnicklas/capybara#asynchronous-javascript-ajax-and-friends
 Capybara.default_max_wait_time = 5
