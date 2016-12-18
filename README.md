@@ -1,9 +1,9 @@
 # react-rails redux sample
 this is a simple example application using  react-rails and redux
-* rails 4.2.3
+* rails 5.0.0.1
 * redux 3.0.4
-* react-rails 1.4.2
-* react 0.14.2
+* react-rails 1.10.0
+* react 15.4.1
 
 ## Installation
 
