@@ -59,6 +59,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.3)
     connection_pool (2.2.1)
+    diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.7.0)
     globalid (0.3.7)
@@ -122,6 +123,23 @@ GEM
       execjs
       railties (>= 3.2)
       tilt
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-rails (3.5.2)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -166,6 +184,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 5.0.0.1)
   react-rails
+  rspec-rails (~> 3.5)
   sass-rails
   sdoc (~> 0.4.0)
   spring
