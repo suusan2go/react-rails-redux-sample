@@ -1,4 +1,4 @@
-import { INCREMENT_COUNTER, DECREMENT_COUNTER, SET_COUNTER } from '../actions/counter';
+import { INCREMENT_COUNTER, DECREMENT_COUNTER, SET_COUNTER } from '../actions/counterTypes';
 
 export default function counter(state = 0, action) {
   switch (action.type) {

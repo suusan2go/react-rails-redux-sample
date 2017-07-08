@@ -1,6 +1,4 @@
-export const INCREMENT_COUNTER = 'INCREMENT_COUNTER';
-export const DECREMENT_COUNTER = 'DECREMENT_COUNTER';
-export const SET_COUNTER = 'SET_COUNTER';
+import {SET_COUNTER, INCREMENT_COUNTER, DECREMENT_COUNTER} from './counterTypes';
 
 export function setCounter(counter) {
   return {
