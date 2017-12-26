@@ -1,6 +1,6 @@
 language: ruby
 rvm:
- - 2.4.1
+ - 2.5.0
 
 addons:
   firefox: "47.0.1"
